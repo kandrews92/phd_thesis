@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.11.6)  7 FEB 2016 17:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.11.6)  7 FEB 2016 18:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1584,33 +1584,33 @@ LaTeX Info: Redefining \nocite on input line 373.
 Package: cite 2010/09/10  v 5.3
 LaTeX Info: Redefining \cite on input line 464.
 )
-(./macros/macros_custom.sty) (./main.aux (./frontmatter/title.aux)
-(./frontmatter/copyright.aux) (./frontmatter/dedication.aux)
-(./frontmatter/quotation.aux) (./frontmatter/abstract.aux)
-(./frontmatter/acknowledgements.aux) (./frontmatter/symbols.aux)
-(./frontmatter/constants.aux) (./frontmatter/acronyms.aux)
+(./macros/macros_custom.sty) (./main.aux (./frontmatter/prelims/title.aux)
+(./frontmatter/prelims/copyright.aux) (./frontmatter/thanks/dedication.aux)
+(./frontmatter/prelims/quotation.aux) (./frontmatter/prelims/abstract.aux)
+(./frontmatter/thanks/acknowledgements.aux) (./frontmatter/lists/symbols.aux)
+(./frontmatter/lists/constants.aux) (./frontmatter/lists/acronyms.aux)
 (./chapters/Chap1.aux) (./backmatter/autobio.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 65.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 74.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 74.
 
 (c:/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    ... okay on input line 74.
 
 (c:/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1672,15 +1672,15 @@ e
 ABD: EveryShipout initializing macros
 \symgns@font=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/cmr/m/n --> TS1/cmr/bx/n on input line 65.
-Package gensymb Info: Math companion symbols declared on input line 65.
-LaTeX Info: Redefining \degree on input line 65.
-LaTeX Info: Redefining \celsius on input line 65.
+(Font)                  TS1/cmr/m/n --> TS1/cmr/bx/n on input line 74.
+Package gensymb Info: Math companion symbols declared on input line 74.
+LaTeX Info: Redefining \degree on input line 74.
+LaTeX Info: Redefining \celsius on input line 74.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 65.
-LaTeX Info: Redefining \ohm on input line 65.
-Package gensymb Info: Using \textohm for \ohm on input line 65.
-Package gensymb Info: Using \textmu for \micro on input line 65.
+erthousand on input line 74.
+LaTeX Info: Redefining \ohm on input line 74.
+Package gensymb Info: Using \textohm for \ohm on input line 74.
+Package gensymb Info: Using \textmu for \micro on input line 74.
 
 (c:/texlive/2014/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-
 dictionary/translator-basic-dictionary-English.dict
@@ -1732,52 +1732,52 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \c__siunitx_mathsf_int=\count294
-LaTeX Font Info:    Try loading font information for U+msa on input line 65.
+LaTeX Font Info:    Try loading font information for U+msa on input line 74.
 (c:/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 65.
+LaTeX Font Info:    Try loading font information for U+msb on input line 74.
 
 (c:/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 \c__siunitx_mathtt_int=\count295
-\openout2 = `frontmatter/title.aux'.
+\openout2 = `frontmatter/prelims/title.aux'.
 
 
-(./frontmatter/title.tex [1
+(./frontmatter/prelims/title.tex [1
 
 
 {c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
-\openout2 = `frontmatter/copyright.aux'.
+\openout2 = `frontmatter/prelims/copyright.aux'.
 
- (./frontmatter/copyright.tex) [1
-
-
-]
-\openout2 = `frontmatter/dedication.aux'.
-
- (./frontmatter/dedication.tex)
-[2
+ (./frontmatter/prelims/copyright.tex) [1
 
 
 ]
-\openout2 = `frontmatter/quotation.aux'.
-
- (./frontmatter/quotation.tex) [3
+\openout2 = `frontmatter/thanks/dedication.aux'.
 
 
-]
-\openout2 = `frontmatter/abstract.aux'.
-
- (./frontmatter/abstract.tex) [4
+(./frontmatter/thanks/dedication.tex) [2
 
 
 ]
-\openout2 = `frontmatter/acknowledgements.aux'.
+\openout2 = `frontmatter/prelims/quotation.aux'.
+
+ (./frontmatter/prelims/quotation.tex) [3
 
 
-(./frontmatter/acknowledgements.tex) [5
+]
+\openout2 = `frontmatter/prelims/abstract.aux'.
+
+ (./frontmatter/prelims/abstract.tex) [4
+
+
+]
+\openout2 = `frontmatter/thanks/acknowledgements.aux'.
+
+
+(./frontmatter/thanks/acknowledgements.tex) [5
 
 
 ] (./main.toc)
@@ -1791,19 +1791,19 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- [7
 
-]
-(./main.lot)
+[7
+
+] (./main.lot)
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
  [8
 
 ]
-\openout2 = `frontmatter/symbols.aux'.
+\openout2 = `frontmatter/lists/symbols.aux'.
 
- (./frontmatter/symbols.tex
+ (./frontmatter/lists/symbols.tex
 Underfull \vbox (badness 10000) detected at line 16
 
 \vbox(14.00279+0.0)x469.75499 []
@@ -1812,9 +1812,9 @@ Underfull \vbox (badness 10000) detected at line 16
 
 
 ]
-\openout2 = `frontmatter/constants.aux'.
+\openout2 = `frontmatter/lists/constants.aux'.
 
- (./frontmatter/constants.tex
+ (./frontmatter/lists/constants.tex
 Underfull \vbox (badness 10000) detected at line 18
 
 \vbox(14.00279+0.0)x469.75499 []
@@ -1824,9 +1824,9 @@ Underfull \vbox (badness 10000) detected at line 18
 
 
 ]
-\openout2 = `frontmatter/acronyms.aux'.
+\openout2 = `frontmatter/lists/acronyms.aux'.
 
- (./frontmatter/acronyms.tex) [11
+ (./frontmatter/lists/acronyms.tex) [11
 
 
 ]
@@ -1849,34 +1849,34 @@ although it is yet undefined on input line 4.
  (./backmatter/autobio.tex) [3
 
 ] (./main.aux
-(./frontmatter/title.aux) (./frontmatter/copyright.aux)
-(./frontmatter/dedication.aux) (./frontmatter/quotation.aux)
-(./frontmatter/abstract.aux) (./frontmatter/acknowledgements.aux)
-(./frontmatter/symbols.aux) (./frontmatter/constants.aux)
-(./frontmatter/acronyms.aux) (./chapters/Chap1.aux) (./backmatter/autobio.aux))
- ) 
+(./frontmatter/prelims/title.aux) (./frontmatter/prelims/copyright.aux)
+(./frontmatter/thanks/dedication.aux) (./frontmatter/prelims/quotation.aux)
+(./frontmatter/prelims/abstract.aux) (./frontmatter/thanks/acknowledgements.aux
+) (./frontmatter/lists/symbols.aux) (./frontmatter/lists/constants.aux)
+(./frontmatter/lists/acronyms.aux) (./chapters/Chap1.aux)
+(./backmatter/autobio.aux)) ) 
 Here is how much of TeX's memory you used:
- 29262 strings out of 493109
- 591631 string characters out of 6138587
- 643386 words of memory out of 5000000
+ 29264 strings out of 493109
+ 592316 string characters out of 6138587
+ 643387 words of memory out of 5000000
  32109 multiletter control sequences out of 15000+600000
  15897 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,15n,69p,10366b,900s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/tex
-live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2014
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2014/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2014/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2014/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr10.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr7.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.p
-fb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/te
-xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2014
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2014/texmf-di
-st/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2014/texmf-dist/f
-onts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2014/texmf-dist/fonts/type1
-/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (15 pages, 142329 bytes).
+{c:/texlive/2014/texmf-dist/fonts/enc/dvips/cm-sup
+er/cm-super-ts1.enc}<c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmbx10.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pf
+b><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/tex
+live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2014/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2014/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2014/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy7.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pf
+b><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c
+:/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/
+2014/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on main.pdf (15 pages, 142283 bytes).
 PDF statistics:
  109 PDF objects out of 1000 (max. 8388607)
  78 compressed objects within 1 object stream

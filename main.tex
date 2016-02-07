@@ -20,6 +20,7 @@
 \usepackage{siunitx}
 \usepackage{booktabs}
 \usepackage{longtable}
+\usepackage{etoolbox}
 \usepackage{siunitx}
 \usepackage{caption}
 \usepackage[toc,page]{appendix}
@@ -30,6 +31,14 @@
 \usepackage[superscript]{cite}
 \usepackage{macros/macros_custom} 
 \renewcommand\bibname{References} 
+
+%%%%% Quotation Settings %%%%%%%%%%%
+\setlength\epigraphwidth{13cm}
+\setlength\epigraphrule{0pt}
+\makeatletter
+\patchcmd{\epigraph}{\@epitext{#1}}{\itshape\@epitext{#1}}{}{}
+\makeatother
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %fix spacing in bib
 %\let\oldbibliography\thebibliography
@@ -73,27 +82,27 @@
 
 
 	\pagenumbering{roman}
-	\include{frontmatter/title}
+	\include{frontmatter/prelims/title}
 
 	\addcontentsline{toc}{section}{Copyright}
-		\include{frontmatter/copyright}
+		\include{frontmatter/prelims/copyright}
 	\newpage 
 
 	\setcounter{page}{2} 
 
 	\addcontentsline{toc}{section}{Dedication}
-	\include{frontmatter/dedication}
+	\include{frontmatter/thanks/dedication}
 
 	\addcontentsline{toc}{section}{Quotation}
-		\include{frontmatter/quotation}
+		\include{frontmatter/prelims/quotation}
 	\newpage
 
     \addcontentsline{toc}{section}{Abstract}
-		\include{frontmatter/abstract}
+		\include{frontmatter/prelims/abstract}
 	\newpage
 
 	\addcontentsline{toc}{section}{Acknowledgments}
-		\include{frontmatter/acknowledgements}
+		\include{frontmatter/thanks/acknowledgements}
 	\newpage
 
 	\renewcommand{\contentsname}{Table of Contents}
@@ -109,15 +118,15 @@
 	\newpage
 
 	\addcontentsline{toc}{section}{List of Symbols}
-		\include{frontmatter/symbols}
+		\include{frontmatter/lists/symbols}
 	\newpage
 	
 	\addcontentsline{toc}{section}{List of Physical Constants}
-		\include{frontmatter/constants}
+		\include{frontmatter/lists/constants}
 	\newpage
 
 	\addcontentsline{toc}{section}{Acronyms}
-		\include{frontmatter/acronyms}
+		\include{frontmatter/lists/acronyms}
 	\newpage
 
 	\pagenumbering{arabic}
