@@ -4,9 +4,9 @@
 
 \usepackage{epsfig}
 \usepackage{setspace}
-\usepackage{helvet}%sets the sffamily font to helvetica
+%\usepackage{helvet}%sets the sffamily font to helvetica
 %\usepackage{pstricks}
-\usepackage{fancyhdr}
+%\usepackage{fancyhdr}
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage[utf8,latin1]{inputenc}
@@ -17,7 +17,6 @@
 \usepackage{etoolbox}
 \usepackage{float}
 \usepackage{gensymb}
-\usepackage{quotchap}
 \usepackage{siunitx}
 \usepackage{booktabs}
 \usepackage{longtable}
@@ -73,7 +72,6 @@
 	%\C: start document
 
 
-
 	\pagenumbering{roman}
 	\include{frontmatter/title}
 
@@ -83,8 +81,8 @@
 
 	\setcounter{page}{2} 
 
-	%\addcontentsline{toc}{section}{Dedication}
-	%\include{frontmatter/dedication}
+	\addcontentsline{toc}{section}{Dedication}
+	\include{frontmatter/dedication}
 
 	\addcontentsline{toc}{section}{Quotation}
 		\include{frontmatter/quotation}
@@ -119,19 +117,19 @@
 	\newpage
 
 	\pagenumbering{arabic}
-         \pagestyle{fancy}
-        \fancyhead{} 
-	\fancyfoot{} % clear all header and footer fields
-        \chead[]{\thepage}
-        \renewcommand{\headrulewidth}{0pt}
-         \renewcommand{\footrulewidth}{0pt}
+         %\pagestyle{fancy}
+        %\fancyhead{} 
+	%\fancyfoot{} % clear all header and footer fields
+    %    \chead[]{\thepage}
+    %    \renewcommand{\headrulewidth}{0pt}
+    %     \renewcommand{\footrulewidth}{0pt}
 	%\pagestyle{myheadings}%supposed to put pg number in header
 	%\pagenumbering{arabic}
-	\fancypagestyle{plain}{%
-	\fancyhf{} % clear all header and footer fields
-	\fancyhead[C]{\thepage} % except the center
-	\renewcommand{\headrulewidth}{0pt}
-	\renewcommand{\footrulewidth}{0pt}}
+	%\fancypagestyle{plain}{%
+	%\fancyhf{} % clear all header and footer fields
+	%\fancyhead[C]{\thepage} % except the center
+	%\renewcommand{\headrulewidth}{0pt}
+	%\renewcommand{\footrulewidth}{0pt}}
 	
 	\include{chapters/Chap1}
 
