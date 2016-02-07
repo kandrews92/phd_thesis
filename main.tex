@@ -1,0 +1,149 @@
+\documentclass{report}
+%\documentclass[12pt,letterpaper,epsfig,epsf]{report}
+%\documentclass[12pt,letterpaper,epsfig,epsf]{report}
+
+\usepackage{epsfig}
+\usepackage{setspace}
+\usepackage{helvet}%sets the sffamily font to helvetica
+%\usepackage{pstricks}
+\usepackage{fancyhdr}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[utf8,latin1]{inputenc}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{chemformula}
+\usepackage{epigraph}
+\usepackage{etoolbox}
+\usepackage{float}
+\usepackage{gensymb}
+\usepackage{quotchap}
+\usepackage{siunitx}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{siunitx}
+\usepackage{caption}
+\usepackage[toc,page]{appendix}
+\usepackage{geometry}
+\usepackage[printonlyused]{acronym}
+\usepackage[toc]{glossaries}
+\usepackage[nottoc,notlof,notlot]{tocbibind}
+\usepackage[superscript]{cite}
+\usepackage{macros/macros_custom} 
+\renewcommand\bibname{References} 
+
+%fix spacing in bib
+%\let\oldbibliography\thebibliography
+%\renewcommand{\thebibliography}[1]{%
+%  \oldbibliography{#1}%
+%  \setlength{\itemsep}{0pt}%
+%}
+
+\large
+\doublespacing
+% Text Sizes
+\textwidth  6.5 in
+\textheight 9.0 in
+\topmargin     -0.5in
+
+\oddsidemargin  0.00in
+\evensidemargin 0.00in
+\showboxdepth=0
+\catcode`\@=11 % @ signs are allowed in definitions
+\def\cs2{CS$_2$}
+\sffamily
+% Always indent a paragraph -- even first in a section
+\let\@afterindentfalse\@afterindenttrue
+\@afterindenttrue
+% Always indent a paragraph -- even first in a section
+
+\pagestyle{plain}
+
+\def\Nile{{\sc Nile}}
+%\includeonly{file_list with commas as delimiters, no spaces}  %this option allows only selected range of filesto be included in the output, but all other files are taken into account for page numbering references etc.
+
+
+\begin{document}
+
+\setcounter{secnumdepth}{4} 
+	%\sets numbering upto 4th level in chapter,section, subsection, subsubsection
+\setcounter{tocdepth}{4}
+	%\makes levels upto the 4th appear in the table of contents
+
+	%\C: start document
+
+
+
+	\pagenumbering{roman}
+	\include{frontmatter/title}
+
+	\addcontentsline{toc}{section}{Copyright}
+		\include{frontmatter/copyright}
+	\newpage 
+
+	\setcounter{page}{2} 
+
+	%\addcontentsline{toc}{section}{Dedication}
+	%\include{frontmatter/dedication}
+
+	\addcontentsline{toc}{section}{Quotation}
+		\include{frontmatter/quotation}
+	\newpage
+
+    \addcontentsline{toc}{section}{Abstract}
+		\include{frontmatter/abstract}
+	\newpage
+
+	\addcontentsline{toc}{section}{Acknowledgments}
+		\include{frontmatter/acknowledgements}
+	\newpage
+
+	\renewcommand{\contentsname}{Table of Contents}
+        \tableofcontents
+	\newpage
+
+    \addcontentsline{toc}{section}{List of Figures}
+		\listoffigures 
+	\newpage
+
+	\addcontentsline{toc}{section}{List of Tables}
+		\listoftables
+	\newpage
+
+	\addcontentsline{toc}{section}{List of Symbols}
+		\include{frontmatter/symbols}
+	\newpage
+	
+	\addcontentsline{toc}{section}{List of Physical Constants}
+		\include{frontmatter/constants}
+	\newpage
+
+	\pagenumbering{arabic}
+         \pagestyle{fancy}
+        \fancyhead{} 
+	\fancyfoot{} % clear all header and footer fields
+        \chead[]{\thepage}
+        \renewcommand{\headrulewidth}{0pt}
+         \renewcommand{\footrulewidth}{0pt}
+	%\pagestyle{myheadings}%supposed to put pg number in header
+	%\pagenumbering{arabic}
+	\fancypagestyle{plain}{%
+	\fancyhf{} % clear all header and footer fields
+	\fancyhead[C]{\thepage} % except the center
+	\renewcommand{\headrulewidth}{0pt}
+	\renewcommand{\footrulewidth}{0pt}}
+	
+	\include{chapters/Chap1}
+
+	%\include{Chap1} % Add more chapters by copying Chap1.tex and adding a line for it here
+
+	\bibliographystyle{unsrt} % Choose style for bibliography
+
+	%\addcontentsline{toc}{section}{Bibliography}
+	\bibliography{refs/database}  % thesisbib.bib is our bibtex database
+	\newpage
+
+	\addcontentsline{toc}{section}{Autobiographical Statement}
+        \include{backmatter/autobio}
+
+\end{document} 

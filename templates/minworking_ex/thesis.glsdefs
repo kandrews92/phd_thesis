@@ -1,0 +1,120 @@
+\ifglsentryexists{gls:tld}{}%
+{%
+\gls@defglossaryentry{gls:tld}%
+{%
+name={TLD},%
+sort={TLD},%
+type={main},%
+first={TLD},%
+firstplural={TLDs},%
+text={TLD},%
+plural={TLDs},%
+description={List of top-level domains},%
+descriptionplural={List of top-level domains},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{tld:com}{}%
+{%
+\gls@defglossaryentry{tld:com}%
+{%
+name={.com},%
+sort={.com},%
+type={domain},%
+first={.com},%
+firstplural={.coms},%
+text={.com},%
+plural={.coms},%
+description={Commercial entities},%
+descriptionplural={Commercial entities},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{tld:net}{}%
+{%
+\gls@defglossaryentry{tld:net}%
+{%
+name={.net},%
+sort={.net},%
+type={domain},%
+first={.net},%
+firstplural={.nets},%
+text={.net},%
+plural={.nets},%
+description={Network infrastructure},%
+descriptionplural={Network infrastructure},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{tld:org}{}%
+{%
+\gls@defglossaryentry{tld:org}%
+{%
+name={.org},%
+sort={.org},%
+type={domain},%
+first={.org},%
+firstplural={.orgs},%
+text={.org},%
+plural={.orgs},%
+description={Public interest registry},%
+descriptionplural={Public interest registry},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%

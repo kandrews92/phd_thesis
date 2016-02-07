@@ -1,0 +1,29 @@
+\documentclass{article}
+
+\usepackage{glossaries}
+ 
+%Alternative glossary for top-level domains
+\newglossary[tlg]{domain}{tld}{tdn}{Top-Level Domains}
+ 
+% Generate glossaries
+\makeglossaries
+ 
+\begin{document} 
+ 
+\section{Top-level domains}
+ 
+%Term definitions
+\newglossaryentry{gls:tld}{name=TLD, description={List of top-level domains}}
+ 
+\newglossaryentry{tld:com}{type=domain, name=.com, description={Commercial entities}}
+\newglossaryentry{tld:net}{type=domain, name=.net, description={Network infrastructure}}
+\newglossaryentry{tld:org}{type=domain, name=.org, description={Public interest registry}}
+ 
+% Use the terms
+Top-level domains (\gls{gls:tld}) include \gls{tld:com}, \gls{tld:net}, and \gls{tld:org}.
+ 
+% Print the glossaries
+\printglossary[type=domain]
+\printglossary
+ 
+\end{document}

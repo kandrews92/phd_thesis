@@ -1,0 +1,50 @@
+Author: Kraig J. Andrews
+
+**************************************************************
+Basic commands for compiling:
+**************************************************************
+
+-To build pdf(s):
+    $ pdflatex filename.tex
+    $ pdflatex filename.tex
+    $ bibtex filename.aux
+    $ pdflatex filename.tex
+    or
+    $ ./mk
+
+-To clean top directory:
+    $ ./clean
+
+-To commit changes to github:
+    $ git add -A 
+    $ git commit -m "message..."
+    $ git push
+
+**************************************************************
+File structure:
+**************************************************************
+
+announcement/:
+    Contains .tex file for announcement
+
+frontmatter/:
+    contains .tex file(s) for copyright, title page, abstract, etc.
+
+refs/:
+    contains .bib file(s)
+
+chapters/:
+    chapter1/:
+        chap1.tex
+
+data/:
+
+figs/:
+
+./mk:
+    make script for latex files
+
+./clean:
+    clean script for top directory, for use before using commit
+    to github
+***************************************************************
