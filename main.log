@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.11.6)  8 FEB 2016 10:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.11.6)  8 FEB 2016 16:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1592,25 +1592,25 @@ LaTeX Info: Redefining \cite on input line 464.
 (./chapters/chapter1/chap1.aux) (./backmatter/autobio.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 74.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 74.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 75.
 
 (c:/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    ... okay on input line 75.
 
 (c:/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1672,15 +1672,15 @@ e
 ABD: EveryShipout initializing macros
 \symgns@font=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/cmr/m/n --> TS1/cmr/bx/n on input line 74.
-Package gensymb Info: Math companion symbols declared on input line 74.
-LaTeX Info: Redefining \degree on input line 74.
-LaTeX Info: Redefining \celsius on input line 74.
+(Font)                  TS1/cmr/m/n --> TS1/cmr/bx/n on input line 75.
+Package gensymb Info: Math companion symbols declared on input line 75.
+LaTeX Info: Redefining \degree on input line 75.
+LaTeX Info: Redefining \celsius on input line 75.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 74.
-LaTeX Info: Redefining \ohm on input line 74.
-Package gensymb Info: Using \textohm for \ohm on input line 74.
-Package gensymb Info: Using \textmu for \micro on input line 74.
+erthousand on input line 75.
+LaTeX Info: Redefining \ohm on input line 75.
+Package gensymb Info: Using \textohm for \ohm on input line 75.
+Package gensymb Info: Using \textmu for \micro on input line 75.
 
 (c:/texlive/2014/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-
 dictionary/translator-basic-dictionary-English.dict
@@ -1732,11 +1732,11 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \c__siunitx_mathsf_int=\count294
-LaTeX Font Info:    Try loading font information for U+msa on input line 74.
+LaTeX Font Info:    Try loading font information for U+msa on input line 75.
 (c:/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 74.
+LaTeX Font Info:    Try loading font information for U+msb on input line 75.
 
 (c:/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1804,7 +1804,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout2 = `frontmatter/lists/symbols.aux'.
 
  (./frontmatter/lists/symbols.tex
-Underfull \vbox (badness 10000) detected at line 29
+Underfull \vbox (badness 10000) detected at line 27
 
 \vbox(14.00279+0.0)x469.75499 []
 
@@ -1815,7 +1815,7 @@ Underfull \vbox (badness 10000) detected at line 29
 \openout2 = `frontmatter/lists/constants.aux'.
 
  (./frontmatter/lists/constants.tex
-Underfull \vbox (badness 10000) detected at line 22
+Underfull \vbox (badness 10000) detected at line 25
 
 \vbox(14.00279+0.0)x469.75499 []
 
@@ -1826,14 +1826,15 @@ Underfull \vbox (badness 10000) detected at line 22
 ]
 \openout2 = `frontmatter/lists/acronyms.aux'.
 
- (./frontmatter/lists/acronyms.tex) [12
+ (./frontmatter/lists/acronyms.tex [12
 
 
 
-]
+] [13] [14]) [15]
 \openout2 = `chapters/chapter1/chap1.aux'.
 
- (./chapters/chapter1/chap1.tex
+
+(./chapters/chapter1/chap1.tex
 Chapter 1.
 Package acronym Info: Label `acro:SB' newly defined as it shall be overridden
 although it is yet undefined on input line 4.
@@ -1857,31 +1858,32 @@ although it is yet undefined on input line 4.
 (./frontmatter/lists/acronyms.aux) (./chapters/chapter1/chap1.aux)
 (./backmatter/autobio.aux)) ) 
 Here is how much of TeX's memory you used:
- 29301 strings out of 493109
- 592767 string characters out of 6138587
- 648800 words of memory out of 5000000
- 32146 multiletter control sequences out of 15000+600000
- 15897 words of font info for 60 fonts, out of 8000000 for 9000
+ 29243 strings out of 493109
+ 592175 string characters out of 6138587
+ 653921 words of memory out of 5000000
+ 32086 multiletter control sequences out of 15000+600000
+ 16516 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,15n,84p,10366b,915s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2014/texmf-dist/fonts/enc/dvips/cm-sup
 er/cm-super-ts1.enc}<c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmbx10.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pf
-b><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/tex
-live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2014/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2014/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2014/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmsy7.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pf
-b><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c
-:/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/
-2014/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb><c:/texlive/2014/texmf
--dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (16 pages, 151367 bytes).
+b><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texl
+ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2014/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2014/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2014/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr9.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsy10.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texl
+ive/2014/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/
+2014/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2014/texmf
+-dist/fonts/type1/public/cm-super/sfrm0700.pfb><c:/texlive/2014/texmf-dist/font
+s/type1/public/cm-super/sfrm1000.pfb>
+Output written on main.pdf (19 pages, 164967 bytes).
 PDF statistics:
- 116 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
+ 130 PDF objects out of 1000 (max. 8388607)
+ 93 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
