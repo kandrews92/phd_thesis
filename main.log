@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.11.6)  7 FEB 2016 22:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.11.6)  8 FEB 2016 10:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1804,7 +1804,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout2 = `frontmatter/lists/symbols.aux'.
 
  (./frontmatter/lists/symbols.tex
-Underfull \vbox (badness 10000) detected at line 16
+Underfull \vbox (badness 10000) detected at line 29
 
 \vbox(14.00279+0.0)x469.75499 []
 
@@ -1815,7 +1815,7 @@ Underfull \vbox (badness 10000) detected at line 16
 \openout2 = `frontmatter/lists/constants.aux'.
 
  (./frontmatter/lists/constants.tex
-Underfull \vbox (badness 10000) detected at line 19
+Underfull \vbox (badness 10000) detected at line 22
 
 \vbox(14.00279+0.0)x469.75499 []
 
@@ -1857,10 +1857,10 @@ although it is yet undefined on input line 4.
 (./frontmatter/lists/acronyms.aux) (./chapters/chapter1/chap1.aux)
 (./backmatter/autobio.aux)) ) 
 Here is how much of TeX's memory you used:
- 29277 strings out of 493109
- 592589 string characters out of 6138587
- 644389 words of memory out of 5000000
- 32122 multiletter control sequences out of 15000+600000
+ 29301 strings out of 493109
+ 592767 string characters out of 6138587
+ 648800 words of memory out of 5000000
+ 32146 multiletter control sequences out of 15000+600000
  15897 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,15n,84p,10366b,900s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1876,11 +1876,12 @@ sfonts/cm/cmsy10.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmsy7.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pf
 b><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c
 :/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/
-2014/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (15 pages, 144933 bytes).
+2014/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb><c:/texlive/2014/texmf
+-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on main.pdf (15 pages, 149805 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
- 78 compressed objects within 1 object stream
+ 113 PDF objects out of 1000 (max. 8388607)
+ 81 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
