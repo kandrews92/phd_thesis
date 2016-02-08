@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.11.6)  7 FEB 2016 21:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.11.6)  7 FEB 2016 22:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1589,7 +1589,7 @@ LaTeX Info: Redefining \cite on input line 464.
 (./frontmatter/prelims/quotation.aux) (./frontmatter/prelims/abstract.aux)
 (./frontmatter/thanks/acknowledgements.aux) (./frontmatter/lists/symbols.aux)
 (./frontmatter/lists/constants.aux) (./frontmatter/lists/acronyms.aux)
-(./chapters/Chap1.aux) (./backmatter/autobio.aux))
+(./chapters/chapter1/chap1.aux) (./backmatter/autobio.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
@@ -1831,9 +1831,9 @@ Underfull \vbox (badness 10000) detected at line 19
 
 
 ]
-\openout2 = `chapters/Chap1.aux'.
+\openout2 = `chapters/chapter1/chap1.aux'.
 
- (./chapters/Chap1.tex
+ (./chapters/chapter1/chap1.tex
 Chapter 1.
 Package acronym Info: Label `acro:SB' newly defined as it shall be overridden
 although it is yet undefined on input line 4.
@@ -1854,11 +1854,11 @@ although it is yet undefined on input line 4.
 (./frontmatter/thanks/dedication.aux) (./frontmatter/prelims/quotation.aux)
 (./frontmatter/prelims/abstract.aux) (./frontmatter/thanks/acknowledgements.aux
 ) (./frontmatter/lists/symbols.aux) (./frontmatter/lists/constants.aux)
-(./frontmatter/lists/acronyms.aux) (./chapters/Chap1.aux)
+(./frontmatter/lists/acronyms.aux) (./chapters/chapter1/chap1.aux)
 (./backmatter/autobio.aux)) ) 
 Here is how much of TeX's memory you used:
  29277 strings out of 493109
- 592490 string characters out of 6138587
+ 592589 string characters out of 6138587
  644389 words of memory out of 5000000
  32122 multiletter control sequences out of 15000+600000
  15897 words of font info for 60 fonts, out of 8000000 for 9000
