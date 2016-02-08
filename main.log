@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.11.6)  8 FEB 2016 10:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.11.6)  8 FEB 2016 10:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1808,10 +1808,10 @@ Underfull \vbox (badness 10000) detected at line 29
 
 \vbox(14.00279+0.0)x469.75499 []
 
-) [9
+[9
 
 
-]
+]) [10]
 \openout2 = `frontmatter/lists/constants.aux'.
 
  (./frontmatter/lists/constants.tex
@@ -1819,14 +1819,14 @@ Underfull \vbox (badness 10000) detected at line 22
 
 \vbox(14.00279+0.0)x469.75499 []
 
-) [10
+) [11
 
 
 
 ]
 \openout2 = `frontmatter/lists/acronyms.aux'.
 
- (./frontmatter/lists/acronyms.tex) [11
+ (./frontmatter/lists/acronyms.tex) [12
 
 
 
@@ -1863,7 +1863,7 @@ Here is how much of TeX's memory you used:
  32146 multiletter control sequences out of 15000+600000
  15897 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,15n,84p,10366b,900s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,15n,84p,10366b,915s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2014/texmf-dist/fonts/enc/dvips/cm-sup
 er/cm-super-ts1.enc}<c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmbx10.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pf
@@ -1878,10 +1878,10 @@ b><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c
 :/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/
 2014/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb><c:/texlive/2014/texmf
 -dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (15 pages, 149805 bytes).
+Output written on main.pdf (16 pages, 151367 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
- 81 compressed objects within 1 object stream
+ 116 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
