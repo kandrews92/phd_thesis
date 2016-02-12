@@ -1,8 +1,8 @@
-\contentsline {section}{Copyright}{i}
-\contentsline {section}{Dedication}{ii}
-\contentsline {section}{Quotation}{iii}
-\contentsline {section}{Abstract}{iv}
-\contentsline {section}{Acknowledgments}{v}
+\contentsline {section}{Copyright}{vi}
+\contentsline {section}{Dedication}{vi}
+\contentsline {section}{Quotation}{vi}
+\contentsline {section}{Abstract}{vi}
+\contentsline {section}{Acknowledgments}{vi}
 \contentsline {section}{List of Figures}{vii}
 \contentsline {section}{List of Tables}{viii}
 \contentsline {section}{List of Symbols}{ix}
@@ -11,4 +11,3 @@
 \contentsline {chapter}{\numberline {1}Chapter Title}{1}
 \contentsline {section}{\numberline {1.1}Section Title}{1}
 \contentsline {chapter}{References}{2}
-\contentsline {section}{Autobiographical Statement}{3}
