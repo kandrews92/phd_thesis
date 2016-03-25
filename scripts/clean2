@@ -1,0 +1,9 @@
+#!/bin/bash
+
+find . -name "*.aux" -type f -delete
+find . -name "*.log" -type f
+find . -name "*.toc" -type f
+find . -name "*.lof" -type f
+find . -name "*.lot" -type f
+find . -name "*.bbl" -type f
+find . -name "*.gz" -type f
