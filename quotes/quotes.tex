@@ -1,0 +1,48 @@
+\documentclass{report}
+
+\usepackage{epigraph}
+
+\setlength\epigraphwidth{13cm}
+\setlength\epigraphrule{0pt}
+
+\usepackage{etoolbox}
+
+\makeatletter
+\patchcmd{\epigraph}{\@epitext{#1}}{\itshape\@epitext{#1}}{}{}
+\makeatother
+
+\begin{document}
+Possible quotes for Ph.D. thesis.
+
+\epigraph{``Begin at the beginning," the King said gravely, ``and go on till you come to the end: then stop."}{--- \textup{Lewis Carroll}, Alice in Wonderland}
+
+\epigraph{``The first principle is that you must not fool yourself--- and you are the easiest person to fool."}{--- \textup{Richard Feynman}, Surely You're Joking, Mr. Feynman!}
+
+\epigraph{``A fool thinks himself to be wise, but a wise man knows himself to be a fool."}{--- \textup{William Shakespeare}, As You Like It, Act 5 Scene 1}
+
+\epigraph{``Now when I was a little chap I had a passion for maps. I would look for hours at South America, or Africa, or Australia, and lose myself in all the glories of exploration. At that time there were many blank spaces on the earth, and when I saw one that looked particularly inviting on a map (but they all look that) I would put my finger on it and say, 'When I grow up I will go there.' The North Pole was one of these places, I remember. Well, I haven't been there yet, and shall not try now. The glamour's off. Other places were scattered about the Equator, and in every sort of latitude all over the two hemispheres. I have been in some of them, and... well, we won't talk about that. But there was one yet—the biggest, the most blank, so to speak—that I had a hankering after.
+"}{--- \textup{Joseph Conrad}, Heart of Darkness}
+
+\epigraph{``The fact that we live at the bottom of a deep gravity well, on the surface of a gas covered planet going around a nuclear fireball 90 million miles away and think this to be normal is obviously some indication of how skewed our perspective tends to be." }{--- \textup{Douglas Adams}, The Salmon of Doubt: Hitchhiking the Galaxy One Last Time}
+
+\epigraph{``Sometimes you climb out of bed in the morning and you think, I'm not going to make it, but you laugh inside — remembering all the times you've felt that way."}{--- \textup{Charles Bukowski}}
+
+\epigraph{``We have to continually be jumping off cliffs and developing our wings on the way down."}{--- \textup{Kurt Vonnegut}, If This Isn't Nice, What Is?: Advice for the Young}
+
+\epigraph{``The good thing about science is that it's true whether or not you believe in it."}{--- \textup{Neil deGrasse Tyson}}
+
+\epigraph{``Never put off till tomorrow what may be done day after tomorrow just as well."}{--- \textup{Mark Twain}}
+
+\epigraph{``All science is either physics or stamp collecting"}{--- \textup{Ernest Rutherford}}
+
+\epigraph{``All of physics is either impossible or trivial. It is impossible until you understand it and then it becomes trivial."}{--- \textup{Ernest Rutherford}}
+
+\epigraph{``... a society without jaywalkers might indicate a society without artists."}{--- \textup{Paul Theroux}, The Great Railway Bazaar}
+
+\epigraph{``Even in Siberia there is happiness there is happiness."}{--- \textup{Anton Chekhov}, In Exile}
+
+\epigraph{``The first draft of anything is shit."}{--- \textup{Ernest Hemingway}}
+
+
+
+\end{document}

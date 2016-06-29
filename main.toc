@@ -11,5 +11,10 @@
 \contentsline {section}{Acronyms}{xiv}
 \contentsline {chapter}{\numberline {1}Chapter Title}{1}
 \contentsline {section}{\numberline {1.1}Section Title}{1}
-\contentsline {chapter}{References}{2}
-\contentsline {section}{Autobiographical Statement}{3}
+\contentsline {chapter}{\numberline {2}Chapter Title}{2}
+\contentsline {section}{\numberline {2.1}Section Title}{2}
+\contentsline {chapter}{\numberline {3}Chapter Title}{3}
+\contentsline {section}{\numberline {3.1}Section Title}{3}
+\contentsline {chapter}{\numberline {4}Chapter Title}{4}
+\contentsline {section}{\numberline {4.1}Section Title}{4}
+\contentsline {chapter}{References}{5}

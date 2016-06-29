@@ -12,12 +12,14 @@ A level-1 auxiliary file: frontmatter/lists/constants.aux
 A level-1 auxiliary file: frontmatter/lists/conversions.aux
 A level-1 auxiliary file: frontmatter/lists/acronyms.aux
 A level-1 auxiliary file: chapters/chapter1/chap1.aux
+A level-1 auxiliary file: chapters/chapter2/chap2.aux
+A level-1 auxiliary file: chapters/chapter3/chap3.aux
+A level-1 auxiliary file: chapters/chapter4/chap4.aux
 The style file: unsrt.bst
-A level-1 auxiliary file: backmatter/autobio.aux
 Database file #1: refs/database.bib
 You've used 1 entry,
             1791 wiz_defined-function locations,
-            463 strings with 4057 characters,
+            465 strings with 4116 characters,
 and the built_in function-call counts, 180 in all, are:
 = -- 12
 > -- 11
