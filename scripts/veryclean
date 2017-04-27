@@ -1,0 +1,38 @@
+#!/bin/bash
+
+bbl="*.bbl"
+toc="*.toc"
+aux="*.aux"
+log="*.log"
+blg="*.blg"
+syn="*.synctex.gz*"
+lot="*.lot"
+lof="*.lof"
+pdf="*.pdf"
+
+
+echo "cleaning '${PWD}' for github commit and push..."
+echo
+echo "removing '$bbl' '$toc' '$aux' '$log' '$blg' '$syn' '$lot' '$lof'"
+echo
+echo
+counter=0
+for f in $(find . -name "$aux" -or -name "$bbl"\
+	-or -name "$toc" -or -name "$log" -or -name "$blg" -or -name\
+	"$syn" -or -name "$lot" -or -name "$lof" )
+do  
+	counter=$((counter+1))
+	echo "removing $f ..."
+	
+done
+
+for f in $(find . "$aux" -or -name "$bbl"\
+	-or -name "$toc" -or -name "$log" -or -name "$blg" -or -name\
+	"$syn" -or -name "$lot" -or -name "$lof" ); do rm $f; done
+
+echo
+echo "$counter files removed..."
+echo "'${PWD}' is now veryclean"
+
+
+
