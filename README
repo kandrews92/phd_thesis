@@ -1,7 +1,7 @@
 Author: Kraig J. Andrews
 
 **************************************************************
-Basic commands for compiling:
+   ## Basic commands for compiling:
 **************************************************************
 
 -To build pdf(s):
@@ -21,7 +21,7 @@ Basic commands for compiling:
     $ git push
 
 **************************************************************
-File structure:
+   ## File structure:
 **************************************************************
 
 announcement/:
