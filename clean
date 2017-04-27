@@ -1,6 +1,6 @@
 #!/bin/bash
 
-RM='rm -f'
+RM='rm -vf'
 base="*.aux *.log *.blg *.out *.synctex.gz* *.lot *.lof"
 bbl="*.bbl"
 toc="*.toc"
