@@ -11,7 +11,9 @@
 ## Basic commands for compiling documents:
 //
 //   -to build pdf(s):
-//      $ pdflatex [filename].tex
+    ```
+      $ pdflatex [filename].tex
+    ```
 //      $ pdflatex [filename].tex
 //      $ bibtex [filename].aux
 //      $ pdflatex [filename].tex
