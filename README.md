@@ -1,105 +1,65 @@
-Author: Kraig J. Andrews
+#---------------------------------------------------------------------------#
+# thesis github repo                                                        #
+#                                                                           #
+# author: Kraig Andrews                                                     #
+#                                                                           #
+# date created: 04/27/2017                                                  #
+#---------------------------------------------------------------------------#
 
-**************************************************************
-   ## Basic commands for compiling:
-**************************************************************
+/*-------------------------------------------------------------------------*/
+//
+## Basic commands for compiling documents:
+//
+//   -to build pdf(s):
+//      $ pdflatex [filename].tex
+//      $ pdflatex [filename].tex
+//      $ bibtex [filename].aux
+//      $ pdflatex [filename].tex
+//
+//   -or-
+//
+//      $ ./mk
+//
+//  -to clean top directory:
+//      $ ./clean
+//
+//  -to clean top directory and all subdirs:
+//      $ ./veryclean
+//
+/*-------------------------------------------------------------------------*/
 
--To build pdf(s):
-    $ pdflatex filename.tex
-    $ pdflatex filename.tex
-    $ bibtex filename.aux
-    $ pdflatex filename.tex
-    or
-    $ ./mk
+/*-------------------------------------------------------------------------*/
+//
+## Basic commands for GitHub commits:
+//
+//  -to add changed docs to queue:
+//      $ git add -A
+//
+//  -to commit changes to queue:
+//      $ git commit -m "[message]"
+//
+//  -to push changes to repo:
+//      $ git push
+//
+//  -or-
+//
+//  -use aliases
+//      -alisases are stored in file: .git/config
+//
+//  [aliases]:
+//      p = push
+//      c = commit
+//      ca = commit -a
+//      cm = commit -m
+//      cam = commit -am
+//
+//  examples of alias usage:
+// 
+//  -to commit all changes:
+//      $ git cam "[message]"
+//
+//  -to push all changes:
+//      $ git p
+//
+/*-------------------------------------------------------------------------*/
 
--To clean top directory:
-    $ ./clean
-
--To commit changes to github:
-    $ git add -A 
-    $ git commit -m "message..."
-    $ git push
-
-**************************************************************
-   ## File structure:
-**************************************************************
-
-announcement/:
-    announcement.tex
-    clean
-    mk_announcement
-
-frontmatter/:
-    lists/:
-        acronyms.tex 
-        constants.tex
-        coversions.tex
-        symbols.tex
-    prelims/:
-        abstract.tex
-        copyright.tex
-        quotation.tex
-        title.tex
-    thanks/:
-        acknowledgements.tex
-        dedication.tex
-
-backmatter/:
-    autobio.tex
-
-refs/:
-    database.bib
-    database_prospectus.bib
-
-chapters/:
-    chapter1/:
-        chap1.tex
-    chapter2/:
-        chap2.tex
-    chapter3/:
-        chap3.tex
-    chapter4/:
-        chap4.tex
-
-macros/:
-    macros_custom.sty
-
-data/:
-
-figs/:
-
-quotes/:
-    quotes.tex
-
-drafts/:
-
-outline/:
-    chapters/:
-        chap1/:
-            chap1_overview.tex
-            mk
-        chap2/:
-            chap2_overview.tex
-            mk
-        chap3/:
-            chap3_overview.tex
-            mk
-        chap4/:
-            chap4_overview.tex
-            mk
-    scripts/:
-        mk
-        clean
-    template/:
-        overview.tex
-
-talk/:
-    powerpoint.pptx
-
-./mk:
-    make script for latex files
-
-./clean:
-    clean script for top directory, for use before using commit
-    to github
-***************************************************************
