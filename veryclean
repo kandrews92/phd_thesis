@@ -23,7 +23,7 @@ for f in $(find . -name "$aux" -or -name "$bbl"\
 	"$syn" -or -name "$lot" -or -name "$lof" )
 do  
 	counterfound=$((counterfound+1))
-	echo -e " --->\t found $f "
+	echo -e "#### --->\t found $f "
 done
 echo
 echo "********************************************************************************"
@@ -36,7 +36,7 @@ for f in $(find . -name "$aux" -or -name "$bbl"\
 	"$syn" -or -name "$lot" -or -name "$lof" )
 do 
 	counterremoved=$((counterremoved+1))
-	echo -e " <---\t removing $f "
+	echo -e "xxxx <---\t removing $f "
 	rm $f
 done
 

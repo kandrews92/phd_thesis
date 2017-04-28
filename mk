@@ -75,3 +75,20 @@ if [ $? -ne 0 ]
 then
         echo "none"
 fi
+
+counternew=0
+echo    
+echo "********************************************************************************"
+echo -e "\t files created or edited: "
+echo
+for f in $(find . -newermt '30 seconds ago')
+do 
+        counternew=$((counternew+1))
+        echo -e "---> ++++\t $f"
+done
+echo
+echo -e "\t $counternew files created..."
+echo "********************************************************************************"
+echo
+
+
