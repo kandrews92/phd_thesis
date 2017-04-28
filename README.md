@@ -157,6 +157,9 @@ $ ./togithub "[mandatory message]"
         chap2/
         chap3/
         chap4/
+	refpdfs/
+	    guide-tables.pdf
+	    booktabs.pdf
         templates/
             table_multiline.tex
             table_simple.tex
