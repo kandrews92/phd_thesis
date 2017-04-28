@@ -6,21 +6,21 @@
 # date created: 04/27/2017                                                  #
 #---------------------------------------------------------------------------#
 
-/*-------------------------------------------------------------------------*/
-//
-## Basic commands for compiling documents:
-//
-//   -to build pdf(s):
+
+
+# Basic commands for compiling documents:
+
+   to build pdf(s):
     ```
       $ pdflatex [filename].tex
+      $ pdflatex [filename].tex
+      $ bibtex [filename].aux
+      $ pdflatex [filename].tex
+
+   -or-
+   ```
+      $ ./mk
     ```
-//      $ pdflatex [filename].tex
-//      $ bibtex [filename].aux
-//      $ pdflatex [filename].tex
-//
-//   -or-
-//
-//      $ ./mk
 //
 //  -to clean top directory:
 //      $ ./clean
