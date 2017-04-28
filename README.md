@@ -59,3 +59,17 @@ $ git p
 ### Task List
 - [ ] Item to be done 1
 - [ ] Item to be done 2
+
+### Directory Structure
+```bash
+.
+    README.md
+    main.tex
+    main.pdf
+    mk*
+    clean*
+    veryclean*
+    announcement/
+        announcement.tex 
+        clean*
+        mk_announcement*
