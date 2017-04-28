@@ -76,18 +76,18 @@ $ ./togithub "[mandatory message]"
 |   |-- announcement.tex 
 |   |-- clean*
 |   |-- mk*
-|	veryclean*
-|    backmatter/
-|        autobio.tex
-|    chapters/
-|        chapter1/
-|            chap1.tex
-|        chapter2/
-|            chap2.tex
-|        chapter3/
-|            chap3.tex
-|        chapter4/
-|            chap4.tex
+|	|-- veryclean*
+|-- backmatter/
+|   |-- autobio.tex
+|-- chapters/
+|   |-- chapter1/
+|       |-- chap1.tex
+|   |-- chapter2/
+|       |-- chap2.tex
+|   |-- chapter3/
+|       |-- chap3.tex
+|   |-- chapter4/
+|       |-- chap4.tex
 |    data/
 |    drafts/
 |    figs/
