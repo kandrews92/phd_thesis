@@ -1,4 +1,4 @@
----
+
 ### document building commands
 
 The simpliest way to compile:
@@ -13,7 +13,7 @@ $ pdflatex [main file].tex
 $ bibtex [main file].aux
 $ pdflatex [main file].tex
 ```
----
+
 ### cleaning the dirs
 
 To clean the top dir:
@@ -22,10 +22,10 @@ $ ./clean
 ```
 
 To clean all subdirs:
-```base
+```bash
 $ ./veryclean
 ```
----
+
 ### commit changes to repo
 
 Without using `[alias]`
