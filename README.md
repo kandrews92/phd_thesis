@@ -1,20 +1,11 @@
-#---------------------------------------------------------------------------#
-# thesis github repo                                                        #
-#                                                                           #
-# author: Kraig Andrews                                                     #
-#                                                                           #
-# date created: 04/27/2017                                                  #
-#---------------------------------------------------------------------------#
-
-
 
 # Basic commands for compiling documents:
 
    *to build pdf(s):
-    ```
+    ```latex
       $ pdflatex [filename].tex
     ```
-    ```
+    ```latex
       $ pdflatex [filename].tex
     ```
     ```
