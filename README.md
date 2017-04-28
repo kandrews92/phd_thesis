@@ -56,6 +56,11 @@ $ git cam "[message]"
 $ git p
 ```
 
+Using `togithub` script
+```bash
+$ ./togithub "[mandatory message]"
+```
+
 ### Task List
 - [ ] Item to be done 1
 - [ ] Item to be done 2
