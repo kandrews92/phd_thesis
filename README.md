@@ -7,7 +7,7 @@ $ ./mk
 ```
 
 For  the masochists:
-```base
+```bash
 $ pdflatex [main file].tex
 $ pdflatex [main file].tex
 $ bibtex [main file].aux
