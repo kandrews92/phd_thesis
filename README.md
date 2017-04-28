@@ -62,7 +62,7 @@ $ git p
 
 ### Directory Structure
 ```bash
-.
+./
     README.md
     main.tex
     main.pdf
@@ -73,3 +73,89 @@ $ git p
         announcement.tex 
         clean*
         mk_announcement*
+    backmatter/
+        autobio.tex
+    chapters/
+        chapter1/
+            chap1.tex
+        chapter2/
+            chap2.tex
+        chapter3/
+            chap3.tex
+        chapter4/
+            chap4.tex
+    data/
+    drafts/
+    figs/
+        chap1/
+        chap2/
+        chap3/
+        chap4/
+        templates/
+            sidebyside.tex
+            subfig_captions.tex
+            subfigure.tex
+    frontmatter/
+        lists/
+            acronyms.tex
+            constants.tex
+            conversions.tex
+            symbols.tex
+        prelims/
+            abstract.tex
+            copyright.tex
+            quotation.tex
+            title.tex
+        thanks/
+            acknowledgements.tex
+            dedication.tex
+    logs/
+        tree_log.log
+    macros/
+        macros_custom.sty
+    notes/
+    old/
+    outline/
+        chapters/
+            chap1/
+                chap1_overview.tex
+                mk*
+            chap2/
+                chap2_overview.tex
+                mk*
+            chap3/
+                chap3_overview.tex
+                mk*
+            chap4/
+                chap4_overview.tex
+                mk*
+        scripts/
+            mk*
+            clean*
+        templates/
+            overview.tex
+    quotes/
+        quotes.tex
+    refs/
+        database.bib
+        database_prospectus.bib
+    scripts/
+        clean*
+        clean_old*
+        mk*
+        tree-md*
+        veryclean*
+    tables/
+        chap1/
+        chap2/
+        chap3/
+        chap4/
+        templates/
+            table_multiline.tex
+            table_simple.tex
+    talk/
+        powerpoint.pptx
+```
+
+
+
