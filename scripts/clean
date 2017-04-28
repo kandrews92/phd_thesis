@@ -1,22 +1,57 @@
 #!/bin/bash
 
-RM='rm -f'
-base="*.aux *.log *.blg *.out *.synctex.gz* *.lot *.lof"
 bbl="*.bbl"
 toc="*.toc"
+blg="*.blg"
+lof="*.lof"
+lot="*.lot"
+syn="*.synctex.gz"
 
-for a in $@; do
-        if [ "$a" = "-b" ]; then
-                bbl="*.bbl"
-        fi
-        if [ "$a" = "-t" ]; then
-                toc="*.toc"
-        fi
-        if [ "$a" = "-a" ]; then
-                bbl="*.bbl"
-                toc="*.toc"
-        fi
+countercheck=0
+for f in $(find . -name "$bbl" -or -name "$toc" -or -name "$blg" -or -name "$lof" \
+        -or -name "$lot" -or -name "$syn")
+do
+        countercheck=$((countercheck+1))
 done
 
-echo "cleaning $base $bbl $toc from $PWD"
-$RM $base $bbl $toc
+if [ "$countercheck" -eq "0" ]
+then
+        echo
+        echo "${PWD} is already clean..."
+        echo
+else
+        echo 
+        echo "cleaning '${PWD}'"
+        echo
+        echo "********************************************************************************"
+        echo -e "\t removing $bbl $toc $blg $lof $lot"
+        echo "********************************************************************************"
+        echo
+        counterfound=0
+        counterremoved=0
+        for f in $(find . -name "$bbl" -or -name "$toc" -or -name "$blg" -or -name "$lof" \
+                -or -name "$lot" -or -name "$syn")
+        do 
+                counterfound=$((counterfound+1))
+                echo -e "#### --->\t found $f"
+        done
+        echo 
+        echo "********************************************************************************"
+        echo -e "\t $counterfound files found..."
+        echo "********************************************************************************"
+        echo
+
+        for f in $(find . -name "$bbl" -or -name "$toc" -or -name "$blg" -or -name "$lof" \
+                -or -name "$lot" -or -name "$syn")
+        do
+                counterremoved=$((counterremoved+1))
+                echo -e "xxxx <---\t removing $f"
+                rm $f
+        done
+
+        echo
+        echo -e "\t $counterremoved files removed..."
+        echo 
+        echo "${PWD} is now clean"
+        echo "********************************************************************************"
+fi

@@ -76,9 +76,17 @@ then
         echo "none"
 fi
 
+tree_log="logs/file_tree.log"
+echo 
+echo "********************************************************************************"
+echo -e "\t creating file tree:"
+tree.exe > "$tree_log"
+echo
+echo -e "---> ++++\t tree written to $tree_log"
+
+
 counternew=0
 echo    
-echo "********************************************************************************"
 echo -e "\t files created or edited: "
 echo
 for f in $(find . -newermt '30 seconds ago')
