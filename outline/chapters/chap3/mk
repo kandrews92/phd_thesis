@@ -49,8 +49,8 @@ fi
 
 $latex $latexops $doc
 check_okay
-$bibtex $doc
-check_okay
+#$bibtex $doc
+#check_okay
 $latex $latexops $doc
 check_okay
 rerun_if_necessary
@@ -75,3 +75,28 @@ if [ $? -ne 0 ]
 then
         echo "none"
 fi
+
+tree_log="logs/file_tree.log"
+echo 
+echo "********************************************************************************"
+#echo -e "\t creating file tree:"
+#tree.exe > "$tree_log"
+#echo
+#echo -e "---> ++++\t tree written to $tree_log"
+
+
+counternew=0
+echo    
+echo -e "\t files created or edited: "
+echo
+for f in $(find . -newermt '30 seconds ago')
+do 
+        counternew=$((counternew+1))
+        echo -e "---> ++++\t $f"
+done
+echo
+echo -e "\t $counternew files created..."
+echo "********************************************************************************"
+echo
+
+

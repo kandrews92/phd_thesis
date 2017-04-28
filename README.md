@@ -75,7 +75,8 @@ $ ./togithub "[mandatory message]"
     announcement/
         announcement.tex 
         clean*
-        mk_announcement*
+        mk*
+	veryclean*
     backmatter/
         autobio.tex
     chapters/
@@ -122,19 +123,24 @@ $ ./togithub "[mandatory message]"
         chapters/
             chap1/
                 chap1_overview.tex
+		clean*
                 mk*
+		veryclean*
             chap2/
                 chap2_overview.tex
+		clean*
                 mk*
+		veryclean*
             chap3/
                 chap3_overview.tex
+		clean*
                 mk*
+		veryclean*
             chap4/
                 chap4_overview.tex
+		clean*
                 mk*
-        scripts/
-            mk*
-            clean*
+		veryclean*
         templates/
             overview.tex
     quotes/
