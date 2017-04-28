@@ -8,7 +8,6 @@ blg="*.blg"
 syn="*.synctex.gz*"
 lot="*.lot"
 lof="*.lof"
-pdf="*.pdf"
 
 echo
 echo "cleaning '${PWD}' for github commit and push..."
