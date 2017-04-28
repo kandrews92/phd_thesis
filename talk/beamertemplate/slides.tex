@@ -1,0 +1,33 @@
+\documentclass{beamer}
+
+\usetheme{Madrid}
+%\usecolortheme{beaver}
+\colorlet{beamer@blendedblue}{green!20!black}
+\usepackage{textpos}
+
+\title{Title}
+\author[Kraig Andrews]{\includegraphics[height=1cm,width=2cm]{figs/wsu_logo}\\Kraig Andrews}
+\institute[WSU]{Wayne State University}
+\date{\today}
+
+\begin{document}
+
+
+\begin{frame}
+\maketitle
+\end{frame}
+
+\addtobeamertemplate{frametitle}{}{%
+\begin{textblock*}{100mm}(.85\textwidth,-1cm)
+\includegraphics[height=1cm,width=2cm]{figs/wsu_logo}
+\end{textblock*}}
+
+\begin{frame}{Motivation}
+Now the logo is visible
+\end{frame}
+
+\begin{frame}{Motivation}
+Added another slide
+\end{frame}
+
+\end{document}

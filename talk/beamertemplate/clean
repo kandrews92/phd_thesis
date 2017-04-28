@@ -1,0 +1,62 @@
+#!/bin/bash
+
+bbl="*.bbl"
+toc="*.toc"
+blg="*.blg"
+lof="*.lof"
+lot="*.lot"
+syn="*.synctex.gz"
+
+countercheck=0
+for f in $(find . -name "$bbl" -or -name "$toc" -or -name "$blg" -or -name "$lof" \
+        -or -name "$lot" -or -name "$syn")
+do
+        countercheck=$((countercheck+1))
+done
+
+if [ "$countercheck" -eq "0" ]
+then
+        echo
+        echo "********************************************************************************"
+        echo
+        echo -e "#### ---> \t$countercheck files found to be removed"
+        echo -e "\t${PWD} is already clean..."
+        echo
+        echo "********************************************************************************"
+        echo
+else
+        echo 
+        echo "cleaning '${PWD}'"
+        echo
+        echo "********************************************************************************"
+        echo -e "\t removing $bbl $toc $blg $lof $lot"
+        echo "********************************************************************************"
+        echo
+        counterfound=0
+        counterremoved=0
+        for f in $(find . -name "$bbl" -or -name "$toc" -or -name "$blg" -or -name "$lof" \
+                -or -name "$lot" -or -name "$syn")
+        do 
+                counterfound=$((counterfound+1))
+                echo -e "#### --->\t found $f"
+        done
+        echo 
+        echo "********************************************************************************"
+        echo -e "\t $counterfound files found..."
+        echo "********************************************************************************"
+        echo
+
+        for f in $(find . -name "$bbl" -or -name "$toc" -or -name "$blg" -or -name "$lof" \
+                -or -name "$lot" -or -name "$syn")
+        do
+                counterremoved=$((counterremoved+1))
+                echo -e "xxxx <---\t removing $f"
+                rm $f
+        done
+
+        echo
+        echo -e "\t $counterremoved files removed..."
+        echo 
+        echo "${PWD} is now clean"
+        echo "********************************************************************************"
+fi

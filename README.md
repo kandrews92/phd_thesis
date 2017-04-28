@@ -167,7 +167,15 @@ $ ./togithub "[mandatory message]"
             table_multiline.tex
             table_simple.tex
     talk/
-        powerpoint.pptx
+    	beamer/
+	    beamertemplate/
+            clean*
+            figs/
+                wsu_logo.jpg
+            slides.tex
+            veryclean*
+    	ppt/
+	    powerpoint.pptx
 ```
 
 
