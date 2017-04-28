@@ -10,7 +10,7 @@
 
 # Basic commands for compiling documents:
 
-   -to build pdf(s):
+   *to build pdf(s):
     ```
       $ pdflatex [filename].tex
     ```
