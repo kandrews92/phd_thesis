@@ -1,3 +1,8 @@
+### document info
+* Author
+    * Kraig Andrews
+* Date Created
+    * 27 Apr 2017
 
 ### document building commands
 
@@ -50,3 +55,7 @@ Using aliases examples
 $ git cam "[message]"
 $ git p
 ```
+
+### Task List
+- [ ] Item to be done 1
+- [ ] Item to be done 2
