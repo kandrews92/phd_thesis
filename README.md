@@ -61,10 +61,6 @@ Using `togithub` script
 $ ./togithub "[mandatory message]"
 ```
 
-### Task List
-- [ ] Item to be done 1
-- [ ] Item to be done 2
-
 ### Directory Structure
 ```bash
 ./
@@ -73,6 +69,7 @@ $ ./togithub "[mandatory message]"
     main.tex
     mk*
     README.md
+    TODO.md
     togithub*
     veryclean*
     announcement/
