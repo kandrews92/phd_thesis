@@ -63,11 +63,12 @@ $ git p
 ### Directory Structure
 ```bash
 ./
-    README.md
-    main.tex
-    main.pdf
-    mk*
     clean*
+    main.pdf
+    main.tex
+    mk*
+    README.md
+    togithub*
     veryclean*
     announcement/
         announcement.tex 
@@ -143,6 +144,7 @@ $ git p
         clean*
         clean_old*
         mk*
+        togithub*
         tree-md*
         veryclean*
     tables/
