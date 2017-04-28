@@ -17,7 +17,12 @@ done
 if [ "$countercheck" -eq "0" ]
 then
         echo
-        echo "${PWD} is already clean..."
+        echo "********************************************************************************"
+        echo
+        echo -e "#### ---> \t$countercheck files found to be removed"
+        echo -e "\t${PWD} is already clean..."
+        echo
+        echo "********************************************************************************"
         echo
 else
         echo 
