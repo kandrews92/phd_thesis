@@ -10,23 +10,27 @@
 
 # Basic commands for compiling documents:
 
-   to build pdf(s):
+   -to build pdf(s):
     ```
       $ pdflatex [filename].tex
       $ pdflatex [filename].tex
       $ bibtex [filename].aux
       $ pdflatex [filename].tex
-
+    ```
    -or-
    ```
       $ ./mk
     ```
-//
-//  -to clean top directory:
-//      $ ./clean
-//
-//  -to clean top directory and all subdirs:
-//      $ ./veryclean
+
+  -to clean top directory:
+    ```
+      $ ./clean
+    ```
+
+  -to clean top directory and all subdirs:
+    ```
+      $ ./veryclean
+    ```
 //
 /*-------------------------------------------------------------------------*/
 
