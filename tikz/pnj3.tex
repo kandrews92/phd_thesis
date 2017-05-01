@@ -1,0 +1,21 @@
+\documentclass[tikz]{standalone}
+
+\usepackage{tikz}
+\usetikzlibrary{patterns, arrows, calc, decorations.pathmorphing}
+
+\begin{document}
+
+\begin{tikzpicture}
+	% variable for pn-junction diagram:
+	% all parameters are in tikz scale
+	% p-side of the junction is here on the right
+
+    \def\EFm{1}   % metal fermi level position
+    \def\PM{10}   % total length of the junction
+
+  % draw metal contact
+  \draw (0,\EFm) node [left]{$E_{Fm}$} -- (2, \EFm); % EFm
+
+\end{tikzpicture}
+
+\end{document}
