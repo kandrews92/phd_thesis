@@ -160,6 +160,10 @@ $ ./togithub "[mandatory message]"
 |        chap2/
 |        chap3/
 |        chap4/
+|	tikz/
+|		mk*
+|		pnj.tex
+|		pnj.pdf
 |	refpdfs/
 |	    guide-tables.pdf
 |	    booktabs.pdf

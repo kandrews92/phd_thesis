@@ -8,11 +8,12 @@ blg="*.blg"
 syn="*.synctex.gz*"
 lot="*.lot"
 lof="*.lof"
+out="*.out"
 
 countercheck=0
 for f in $(find . -name "$aux" -or -name "$bbl"\
 	-or -name "$toc" -or -name "$log" -or -name "$blg" -or -name\
-	"$syn" -or -name "$lot" -or -name "$lof" )
+	"$syn" -or -name "$lot" -or -name "$lof" -or -name "$out")
 do
 	countercheck=$((countercheck+1))
 done
@@ -32,14 +33,14 @@ else
 	echo "cleaning '${PWD}' for github commit and push..."
 	echo
 	echo "********************************************************************************"
-	echo -e "  removing '$bbl' '$toc' '$aux' '$log' '$blg' '$syn' '$lot' '$lof'"
+	echo -e "  removing '$bbl' '$toc' '$aux' '$log' '$blg' '$syn' '$lot' '$lof' '$out'"
 	echo "********************************************************************************"
 	echo
 	counterfound=0
 	counterremoved=0
 	for f in $(find . -name "$aux" -or -name "$bbl"\
 		-or -name "$toc" -or -name "$log" -or -name "$blg" -or -name\
-		"$syn" -or -name "$lot" -or -name "$lof" )
+		"$syn" -or -name "$lot" -or -name "$lof" -or -name "$out")
 	do  
 		counterfound=$((counterfound+1))
 		echo -e "#### --->\t found $f "
@@ -52,7 +53,7 @@ else
 
 	for f in $(find . -name "$aux" -or -name "$bbl"\
 		-or -name "$toc" -or -name "$log" -or -name "$blg" -or -name\
-		"$syn" -or -name "$lot" -or -name "$lof" )
+		"$syn" -or -name "$lot" -or -name "$lof" -or -name "$out")
 	do 
 		counterremoved=$((counterremoved+1))
 		echo -e "xxxx <---\t removing $f "

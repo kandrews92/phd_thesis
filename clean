@@ -6,10 +6,11 @@ blg="*.blg"
 lof="*.lof"
 lot="*.lot"
 syn="*.synctex.gz"
+out="*.out"
 
 countercheck=0
 for f in $(find . -name "$bbl" -or -name "$toc" -or -name "$blg" -or -name "$lof" \
-        -or -name "$lot" -or -name "$syn")
+        -or -name "$lot" -or -name "$syn" -or -name "$out")
 do
         countercheck=$((countercheck+1))
 done
@@ -29,13 +30,13 @@ else
         echo "cleaning '${PWD}'"
         echo
         echo "********************************************************************************"
-        echo -e "\t removing $bbl $toc $blg $lof $lot"
+        echo -e "\t removing $bbl $toc $blg $lof $lot $out"
         echo "********************************************************************************"
         echo
         counterfound=0
         counterremoved=0
         for f in $(find . -name "$bbl" -or -name "$toc" -or -name "$blg" -or -name "$lof" \
-                -or -name "$lot" -or -name "$syn")
+                -or -name "$lot" -or -name "$syn" -or -name "$out")
         do 
                 counterfound=$((counterfound+1))
                 echo -e "#### --->\t found $f"
@@ -47,7 +48,7 @@ else
         echo
 
         for f in $(find . -name "$bbl" -or -name "$toc" -or -name "$blg" -or -name "$lof" \
-                -or -name "$lot" -or -name "$syn")
+                -or -name "$lot" -or -name "$syn" -or -name "$out")
         do
                 counterremoved=$((counterremoved+1))
                 echo -e "xxxx <---\t removing $f"
