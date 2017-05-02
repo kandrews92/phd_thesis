@@ -3,7 +3,7 @@
 bibtex=`which bibtex`
 
 # replace this with the name of your tex file
-doc='pnj2'
+doc='pnj_simple'
 
 function check_okay {
         if [ $? -ne 0 ]
