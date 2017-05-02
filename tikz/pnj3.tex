@@ -1,3 +1,4 @@
+%\documentclass[a4paper]{article}
 \documentclass[tikz]{standalone}
 
 \usepackage{tikz}
@@ -10,11 +11,31 @@
 	% all parameters are in tikz scale
 	% p-side of the junction is here on the right
 
-    \def\EFm{1}   % metal fermi level position
-    \def\PM{10}   % total length of the junction
+    \def\EFm{2}         % metal fermi level position
+    \def\EF{2.75}       % semiconductor fermi level 
+    \def\MetalEnd{3}    % total length of the metal
+    \def\SemiEnd{8}     % total length of the semiconductor
+    \def\V{1.0}         % base level
+    \def\EG{1.8}        % energy gap of semiconductor
 
-  % draw metal contact
-  \draw [dashed] (0,\EFm) node [left]{$E_{Fm}$} -- (\PM, \EFm); % EFm
+  % calculations
+  \pgfmathsetmacro\totalLen{\MetalEnd+\SemiEnd};  % total length of the image
+  \pgfmathsetmacro\EC{\EF+\V};                    % conduction band height
+  \pgfmathsetmacro\EV{\EF-\V};
+
+  % draw metal contact fermi level
+  \draw [dashed] (\V,\EFm) node [left]{$E_{Fm}$} -- (\MetalEnd, \EFm); % EFm
+  % draw hashed region of metal contact
+  \draw[pattern = north west lines, draw=none] (\MetalEnd,2) rectangle (2,1.5);
+  \draw[draw=none] (1, 1.5) rectangle (0,0);
+
+  % draw semiconductor fermi level
+  \draw [dashed] (\MetalEnd,\EF) -- (\totalLen,\EF) node [right]{$E_F$};
+
+  % draw valence band
+  \draw (\MetalEnd,\EV) -- (\totalLen,\EV) node [right]{$E_V$};
+  % draw conduction band
+  \draw (\MetalEnd,\EC) -- (\totalLen,\EC) node [right]{$E_C$};
 
 \end{tikzpicture}
 
