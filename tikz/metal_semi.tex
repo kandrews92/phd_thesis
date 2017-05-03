@@ -1,0 +1,42 @@
+%\documentclass[a4paper]{article}
+\documentclass[tikz]{standalone}
+
+\usepackage{tikz}
+\usetikzlibrary{patterns, arrows, calc, decorations.pathmorphing}
+
+\begin{document}
+
+\begin{tikzpicture}
+	% variable for metal semicond before band alignment-junction diagram:
+	% all parameters are in tikz scale
+	% p-side of the junction is here on the right
+
+    \def\EFm{2}   % metal fermi level position
+    \def\LenM{1}  % len of metal region
+    \def\LenS{9}  % len of semicond region
+    \def\EV{1.5}  % valence band energy
+    \def\EF{2.25} % fermi level position
+    \def\EC{3}    % conductance band energy  
+
+  % draw metal region:
+  % draw fermi level of metal contact
+  \draw [dashed] (\LenM,\EFm) node [left]{$E_{Fm}$} -- (\LenM+1,\EFm); % EFm
+  % draw hashed region of metal contact
+  \draw [pattern = north west lines, draw=none] (\LenM,\EFm) rectangle (\LenM+1, \EFm-1);
+  % draw buffer region of white space below hashed region
+  \draw [draw = none] (\LenM,\EFm-0.5) rectangle (\LenM+1,0);
+
+  % draw semiconductor region:
+  % draw fermi level
+  \draw [dashed] (\LenM+1, \EF) -- (\LenM+\LenS, \EF)
+    node [right] {$E_F$}; % EF
+  % draw valence band 
+  \draw (\LenM+1,\EV) -- (\LenM+\LenS,\EV) 
+    node [right] {$E_V$}; % EV
+  % draw conduction band
+  \draw (\LenM+1,\EC) -- (\LenM+\LenS,\EC)
+    node [right] {$E_C$}; % EC
+
+\end{tikzpicture}
+
+\end{document}
