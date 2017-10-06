@@ -1,0 +1,10 @@
+#
+# .gitignore for thesis/work/
+#
+# repo name: 
+#
+# latex files
+#
+
+*.[aux]
+*.[bbl]
