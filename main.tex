@@ -17,7 +17,7 @@
 \usepackage{graphicx}
 \usepackage{chemformula}
 \usepackage{epigraph}
-\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
 \usepackage{etoolbox}
 \usepackage{float}
 \usepackage{gensymb}
@@ -27,6 +27,7 @@
 \usepackage{etoolbox}
 \usepackage{physics}
 \usepackage{caption}
+\usepackage{subfloat}
 \usepackage[toc,page]{appendix}
 \usepackage{geometry}
 \usepackage[printonlyused]{acronym}
@@ -36,6 +37,11 @@
 \usepackage[superscript]{cite}
 \usepackage{macros/macros_custom} 
 \renewcommand\bibname{References} 
+
+\usepackage[noabbrev]{cleveref}
+\usepackage{subfig}
+\captionsetup[subfigure]{subrefformat=simple,labelformat=simple,listofformat=subsimple}
+\renewcommand\thesubfigure{(\alph{subfigure})}
 
 %%%%% Quotation Settings %%%%%%%%%%%
 \setlength\epigraphwidth{13cm}
@@ -166,7 +172,7 @@
 	\bibliography{refs/database}  % thesisbib.bib is our bibtex database
 	\newpage
 
-	%\addcontentsline{toc}{section}{Autobiographical Statement}
-    %    \include{backmatter/autobio}
+	\addcontentsline{toc}{section}{Autobiographical Statement}
+        \include{backmatter/autobio}
 
 \end{document} 
